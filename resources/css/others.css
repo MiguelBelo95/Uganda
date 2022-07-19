@@ -1,0 +1,32 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: whitesmoke;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+
+#logotype {
+  margin-left: 20px;
+  height: 100%;
+}
+
+#logotype img {
+  height: 100%;
+  width: auto;
+}

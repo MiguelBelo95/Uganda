@@ -1,0 +1,108 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: whitesmoke;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  top: 0;
+  height: 800px;
+  width: 100%;
+}
+
+#myvideo {
+  object-fit: cover; /* automatically sizes the background video to keep its original aspect ratio while filling the screen, clipping out edges of the video when necessary. */
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: sepia(15%); /* Filters like IG */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+
+#id {
+  height: 100%;
+  width: auto;
+}
+
+#navbar {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#logotype {
+  margin-left: 20px;
+  height: 100%;
+}
+
+#logotype img {
+  height: 100%;
+  width: auto;
+}
+
+a {
+  color: whitesmoke;
+  margin-left: 10px;
+  font-size: 22px;
+  transition: color 300ms linear;
+}
+
+a:hover {
+  color: rgba(255, 153, 51, 0.7);
+}
+
+.home_titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(73, 80, 87, 0.7);
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  justify-content: center;
+}
+
+.box p {
+  text-align: center;
+}
+
+img {
+  border-radius: 8px;
+  width: 100%;
+  height: fit-content;
+  max-height: 400px;
+  max-width: 400px;
+}
